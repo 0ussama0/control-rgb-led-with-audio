@@ -22,7 +22,7 @@ while True:
         print(com)
 
         if com=="computer red":
-            redpin.write(0)
+            redpin.write(0) #that values for common anode rgb led
             
             greenpin.write(1)
             bluepin.write(1)
